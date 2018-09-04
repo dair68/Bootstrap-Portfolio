@@ -1,0 +1,158 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image:url("../images/wov.png");
+    margin: 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    padding: 0;
+}
+
+.navbar {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    /* height: 72px; */
+}
+
+#links {
+    max-width: 960px;
+    padding: 0;
+}
+
+/* .nav-link:hover {
+    color: #4aaaa5;
+}
+
+.nav-link:active {
+    color: #17E878;
+} */
+
+.h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+.h1, button, h3 {
+    background: #4aaaa5;
+    color: #ffffff;
+    /* padding: 13px; */
+    padding: .5em;
+}
+
+.h1, #bootstrap-override {
+    /* background: #4aaaa5; */
+    /* color: #ffffff; */
+
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 2em;
+    /* padding: 13px; */
+    /* padding: 12px;
+    width: 225px;
+    margin: 0;
+    float: left; */
+}
+
+#slash::hover {
+    color: rgba(0,0,0,.5)
+}
+
+.card {
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    width: 916px;
+    padding: 20px;
+    margin: auto;
+}
+
+#main {
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    max-width: 960px;
+    /* max-height: 456px; */
+    padding: 20px;
+    margin: auto;
+}
+
+h2 {
+    color: #4aaaa5;
+    /* margin-top: .5em; */
+}
+
+h5 {
+    color: #4aaaa5;
+    margin-top: .5em;
+}
+
+#portrait {
+    width: 100%;
+    height: 100%;
+    max-width: 206px;
+    min-width: 206px;
+    max-height: 341px;
+    min-height: 341px;
+   
+    /* float: left; */
+    /* margin: 20px 22px 20px 0px; */
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    max-height: 165px;
+    min-height: 165px;
+    max-width: 220px;
+    min-width: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    position: absolute;
+    margin: 0;
+    bottom:20px;
+    padding: 5px; 
+    max-width: 220px;
+    min-width: 220px;
+    text-align: center;
+}
+
+/* #submit {
+    background: #4aaaa5;
+    border-color: #dddddd;
+} */
+
+/* #submit::hover {
+    background-color: #ffffff;
+} */
+
+.footer {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+    height: 2em; 
+    text-align: center;
+    flex-shrink: 0;
+    
+}
+
+#copyright {
+    color: #ffffff;
+}
+
+
+
